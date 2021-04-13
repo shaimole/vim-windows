@@ -1,0 +1,29 @@
+{
+  "name": "vim-windows",
+  "version": "1.0.0",
+  "description": "install helper for vim on windows",
+  "main": "index.js",
+  "scripts": {
+    "vim-setup": "node src/install.js && vim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaimole/vim-windows.git"
+  },
+  "keywords": [
+    "vim",
+    "install",
+    "windows"
+  ],
+  "author": "felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaimole/vim-windows/issues"
+  },
+  "homepage": "https://github.com/shaimole/vim-windows#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^8.0.0",
+    "yargs": "^16.2.0"
+  }
+}
